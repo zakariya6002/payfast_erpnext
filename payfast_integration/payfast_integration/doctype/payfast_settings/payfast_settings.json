@@ -1,0 +1,31 @@
+{
+    "doctype": "DocType",
+    "name": "Payfast Settings",
+    "module": "Payfast Integration",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "merchant_id",
+        "label": "Merchant ID",
+        "fieldtype": "Data",
+        "reqd": 1
+      },
+      {
+        "fieldname": "merchant_key",
+        "label": "Merchant Key",
+        "fieldtype": "Data",
+        "reqd": 1
+      },
+      {
+        "fieldname": "passphrase",
+        "label": "Passphrase",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "is_sandbox",
+        "label": "Use Sandbox",
+        "fieldtype": "Check"
+      }
+    ]
+  }
+  
